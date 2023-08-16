@@ -36,6 +36,19 @@ class StartScreen extends StatelessWidget {
             ),
             icon: const Icon(Icons.arrow_right_alt),
           ),
+          const SizedBox(height: 50),
+          Container(
+            padding: const EdgeInsets.all(20),
+            margin: const EdgeInsets.symmetric(horizontal: 20),
+            color: const Color.fromARGB(255, 43, 7, 83),
+            child: Text(
+              "This Quiz was part of the Flutter Udemy-course by Maximilian Schwarzmüller",
+              textAlign: TextAlign.center,
+              style: GoogleFonts.lato(
+                  color: const Color.fromARGB(255, 222, 197, 255),
+                  fontSize: 15),
+            ),
+          ),
         ],
       ),
     );
